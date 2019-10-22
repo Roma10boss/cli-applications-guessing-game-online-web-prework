@@ -8,4 +8,9 @@ def run_guessing_game
   if guess == generator 
     puts "You guessed the correct number!"
   elsif guess != generator 
-  puts ""
+  puts "Sorry! The computer guessed  #{generator}"
+   elsif guess = 'exit'
+   puts "Goodbye!"
+ else 
+   puts "enter a valid number"
+ end
